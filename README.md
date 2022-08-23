@@ -38,24 +38,38 @@ MMc_Monte_Carlo_function.R              # final monte carlo with all the loops
 # Scripts relating to Chapter 4:
 
 #graphs for acceleration forces, requires patchwork
+
 launch_acceleration_force_graphs_multi.R  
+
 launch_acceleration_force_graphs_multi_an.R
 
 #graphs for heights
+
 launch_lines_2_burst_graph.R
+
 launch_lines_2_counter_graph.R
+
 launch_lines_2_graph.R
+
 launch_max_error.R
+
 launch_ribbons_2_graph.R
 
 #Analysis
-averager.R #Thanks to Joe Flannery Sutherland for fixing this
-launch_calc_time2.R
-launch_calc_time2_anaero.R
-launch_calc_time2c.R
-launch_calc_time2c_anaero.R
-launch_calc2.R
-launchforce_loop.R
-launchforce_loop_anaerobic.R
 
+averager.R #Thanks to Joe Flannery Sutherland for fixing this
+
+launch_calc_time2.R           #launch height calculation with variable time
+
+launch_calc_time2_anaero.R    #as above but for anaerobic
+
+launch_calc_time2c.R          #crocodilian ankle version
+
+launch_calc_time2c_anaero.R   #as above but anaerobic
+
+launch_calc2.R                #old version with variable power inputs
+
+launchforce_loop.R            #calculate launch force from moment arms and joint angles
+
+launchforce_loop_anaerobic.R  #as above but for anaerobics
 

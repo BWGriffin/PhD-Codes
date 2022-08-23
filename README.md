@@ -7,7 +7,7 @@ Code is written to be purely functional and have not been generalised or optimis
 
 Included scripts are as follows:
 
-Scripts related to Chapter 3:
+# Scripts related to Chapter 3:
 
 #Graphs
 mm_mc_graph.R               
@@ -17,23 +17,31 @@ mm_sense_comp_graph3.R
 
 #Analysis
 MM_combined.R               # combining the moment outputs
+
 MM_Rds_fusion.R             # combining all the .rds files
+
 MM1_Monte_Carlo_function.R  # monte carlo script that varied the moment arms
+
 MM2_Monte_Carlo_function.R  # monte carlo script that varied the fmax
+
 mma_mc_graph.R              # graphing for moment arms
+
 MMA_Monte_Carlo.R           # monte carlo design preloop
+
 MMA_Monte_Carlo_function - Original.R   # monte carlo with functioning loop from Tom Smith
+
 MMA_Monte_Carlo_function.R              # test function for varying the moment arms muscles
+
 MMc_Monte_Carlo_function.R              # final monte carlo with all the loops
 
 
-Scripts relating to Chapter 4:
+# Scripts relating to Chapter 4:
 
-# graphs for acceleration forces, requires patchwork
+#graphs for acceleration forces, requires patchwork
 launch_acceleration_force_graphs_multi.R  
 launch_acceleration_force_graphs_multi_an.R
 
-# graphs for heights
+#graphs for heights
 launch_lines_2_burst_graph.R
 launch_lines_2_counter_graph.R
 launch_lines_2_graph.R
